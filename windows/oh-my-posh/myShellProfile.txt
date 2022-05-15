@@ -1,0 +1,6 @@
+# Open your Profile with 'code $PROFILE' then paste this in and reload your shell
+Import-Module oh-my-posh
+oh-my-posh init pwsh --config C:\Users\Utilisateur\AppData\Local\oh-my-posh/myCustomTheme.omp.json| Invoke-Expression
+cls
+# echo 'PATH to oh-my-posh: C:\Users\Utilisateur\AppData\Local\Programs\oh-my-posh\bin'
+(Get-Command oh-my-posh).Source
