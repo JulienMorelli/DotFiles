@@ -65,6 +65,13 @@ Set-ExecutionPolicy Bypass; .\install.ps1
 
 Config your Terminal to use `Source Code Pro for Powerline` as default font.
 
+## Command Autocomplete
+
+```shell
+Install-Module PSReadLine -Force
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+```
 
 
 
